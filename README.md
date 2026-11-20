@@ -33,13 +33,13 @@ VITE_API_BASE_URL=http://127.0.0.1:8000/api
 VITE_BACKEND_PENDING=false
 ```
 
-## Production build
+## Build verification
 
 ```bash
 npm ci
 npm run build
 ```
 
-Deploy the generated `dist` directory to Netlify or Vercel. Vite embeds environment values during the build, so rebuild after changing the API URL.
+Vite embeds environment values during the build, so rebuild after changing the API URL.
 
 The backend is maintained separately in [secure-notes-backend](https://github.com/zia11004/secure-notes-backend).
